@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/craft-cloud/static/css/main.21a4a401.chunk.css",
+    "main.js": "/craft-cloud/static/js/main.8eccdbc2.chunk.js",
+    "main.js.map": "/craft-cloud/static/js/main.8eccdbc2.chunk.js.map",
+    "runtime-main.js": "/craft-cloud/static/js/runtime-main.996f012f.js",
+    "runtime-main.js.map": "/craft-cloud/static/js/runtime-main.996f012f.js.map",
+    "static/css/2.06382735.chunk.css": "/craft-cloud/static/css/2.06382735.chunk.css",
+    "static/js/2.baa0ef6a.chunk.js": "/craft-cloud/static/js/2.baa0ef6a.chunk.js",
+    "static/js/2.baa0ef6a.chunk.js.map": "/craft-cloud/static/js/2.baa0ef6a.chunk.js.map",
+    "index.html": "/craft-cloud/index.html",
+    "static/css/2.06382735.chunk.css.map": "/craft-cloud/static/css/2.06382735.chunk.css.map",
+    "static/css/main.21a4a401.chunk.css.map": "/craft-cloud/static/css/main.21a4a401.chunk.css.map",
+    "static/js/2.baa0ef6a.chunk.js.LICENSE.txt": "/craft-cloud/static/js/2.baa0ef6a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.996f012f.js",
+    "static/css/2.06382735.chunk.css",
+    "static/js/2.baa0ef6a.chunk.js",
+    "static/css/main.21a4a401.chunk.css",
+    "static/js/main.8eccdbc2.chunk.js"
+  ]
+}
