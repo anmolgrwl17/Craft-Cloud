@@ -1,4 +1,23 @@
 .home_section{
     display: flex;
     padding: 30px;
+    padding-top: 7%;
 }
+
+.Servicebutton > button {
+    background-color: #3891e8;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600 ;
+    margin-left: 50%;
+}
+
+.Servicebutton > button:hover{
+    background-color: white;
+    color: #3891e8;
+}
+
+a { 
+    color: inherit; 
+} 

@@ -12,7 +12,7 @@ function Header() {
         <Link to='/'>
            <img
             className="header_icon"
-           src="https://cdn.logo.com/hotlink-ok/logo-social.png"
+           src="https://i.pinimg.com/originals/39/8a/8b/398a8ba62237e893f95962919506f087.jpg"
            alt=""
            />
         </Link>
@@ -24,9 +24,7 @@ function Header() {
         
         <div className="header_right">
             <a>Explore</a>
-            <a>Messages</a>
-            <a>Orders</a>
-            <a>Profile</a>
+            <a>Login/Register</a>
             <LanguageIcon/>
             <ExpandMoreIcon/>
             <Avatar/>

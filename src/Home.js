@@ -2,27 +2,35 @@ import React from 'react';
 import './Home.css'
 import Banner from './Banner'
 import Card from './Card'
+import { Button } from '@material-ui/core';
+
+import { Link } from "react-router-dom";
 function Home() {
     return (
         <div className='home'>
             <Banner />
-
             <div className='home_section'>
+                <Link to= "/Handicraft">
                 <Card 
                 src="https://images.unsplash.com/photo-1506806732259-39c2d0268443?ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80"
                 title="Handicraft"
                 description="Encourage the hidden talents and skills"
-                />
+                /></Link>
+                
                 <Card 
-                src="https://images.unsplash.com/photo-1589377108815-c39525a1a597?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1589&q=80"
-                title="Natural Products"
-                description="Explore nature with our vide range of products"
+                src="https://images.unsplash.com/photo-1508269151431-a34449ca161d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                title="Pottery"
+                description="Explore the richness of pottery"
                 />
+                
                 <Card 
-                src="https://images.unsplash.com/photo-1565665681743-6ff01c5181e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1586&q=80"
-                title="Services"
-                description="Enjoy various services at your doorstep"
+                src="https://images.unsplash.com/photo-1589996448606-27d38c70f3bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                title="Painting & Artwork"
+                description="Get lost in the art"
                 />
+            </div>
+            <div className='Servicebutton'>
+            <Button >All Services</Button>
             </div>
             <div className='home_section'>
             <h1>New Comers</h1>
@@ -35,7 +43,7 @@ function Home() {
                 <Card 
                 src="https://images.unsplash.com/photo-1589395595310-ecf612c64942?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
                 title="Connect with Nature"
-                description="Switch to natural & biodegradable prodcuts"
+                description="Artifacts to preserve"
                 price="Rs.400/hour"/>
                 <Card 
                 src="https://images.unsplash.com/photo-1518210777420-a2f84c71fffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"

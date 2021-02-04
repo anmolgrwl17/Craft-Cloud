@@ -4,6 +4,7 @@ import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
 import SearchPage from './SearchPage';
+import Handicraft from './Handicraft';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -17,9 +18,10 @@ function App() {
           <Route path="/search">
             <SearchPage />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
+          <Route path="/handicraft" component={Handicraft} />
         </Switch>
 
         <Footer />
